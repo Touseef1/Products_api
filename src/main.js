@@ -1,7 +1,7 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 import store from './store'; 
-import { createApp } from 'vue'
+import { createApp } from '../node_modules/vue'
 import App from './App.vue'
 import router from './router'
 const app = createApp(App)
